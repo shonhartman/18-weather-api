@@ -1,0 +1,16 @@
+* {
+  background-color: #3498DB;
+  color: white;
+  font-family: Arial;
+  font-weight: 100;
+  text-align: center; }
+
+#city {
+  margin: 0 auto; }
+
+#condition {
+  padding: 0 45% 0 45%; }
+
+#current-temp {
+  font-size: 10rem;
+  padding-left: 6%; }
