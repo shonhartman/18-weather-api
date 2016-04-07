@@ -23,9 +23,6 @@ class Weather {
         document.querySelector("#city").innerHTML = response.city.name;
         document.querySelector("#condition").innerHTML = response.list[0].weather[0].description;
 
-        let temp = response.list[0].temp.day;
-        document.querySelector("#temp").innerHTML = Math.round(temp) + "&deg;";
-
       })
   }
 }
